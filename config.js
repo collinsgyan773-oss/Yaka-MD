@@ -2,18 +2,18 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918770333268";   // You can Change this number //
+  gg = "233559033516";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://Castlevnia1:Tomato@cluster0.imvpoa8.mongodb.net/?retryWrites=true&w=majority"; // paste your own MongoDB url..
-global.sessionId = process.env.SESSION_ID || "ok";
-global.prefa = process.env.PREFIX || "-";
+global.mongodb = process.env.MONGODB || "mongodb://<db_username>:OWdh6owsFn5tPXwj@ac-swpbjsy-shard-00-00.ra4acrx.mongodb.net:27017,ac-swpbjsy-shard-00-01.ra4acrx.mongodb.net:27017,ac-swpbjsy-shard-00-02.ra4acrx.mongodb.net:27017/?ssl=true&replicaSet=atlas-xzn6vs-shard-0&authSource=admin&compressors=zlib"; // paste your own MongoDB url..
+global.sessionId = process.env.SESSION_ID || "ghsbxjhskj63863ndndihemidhdjskne123778";
+global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
-  process.env.TENOR_API_KEY || "AIzaSyCAYZ930Rq1EFiRNRJuSeGGrKljCnOb8-U"; // paste Your own Api Key..
+  process.env.TENOR_API_KEY || "AQ.Ab8RN6I5HqRSkA-foM2O4b5IPpUl5YzwaxMVgKyiDQaBP4PbKw"; // paste Your own Api Key..
 global.packname = process.env.PACKNAME || `👹𝕐𝕒𝕜𝕒ᵐᵈ`;
 global.author = process.env.AUTHOR || "by: 𝖄𝖆𝖐𝖆𝖘𝖍𝖎";
 global.port = process.env.PORT || "8000";
